@@ -1,0 +1,34 @@
+{
+  "MustExist": {
+    "$exist": {
+      "name": "IDNode",
+      "index": 4,
+      "literal": "test"
+    }
+  },
+  "MustBeLeft": {
+    "$left": [{
+      "name": "RoutineCallOp"
+    }, {
+      "name": "IDNode",
+      "index": 14,
+      "literal": "system"
+    }]
+  },
+  "MustBeRight": {
+    "$right": [{
+      "name": "SelectOp"
+    }, {
+      "name": "DUMMYnode"
+    }]
+  },
+  "MustBeChild": {
+    "$child": [{
+      "name": "ProgramOp"
+    }, {
+      "name": "IDNode",
+      "index": 21,
+      "literal": "println"
+    }]
+  }
+}

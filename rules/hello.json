@@ -1,0 +1,84 @@
+{
+  "Program": {
+    "$right": [{
+      "name": "ProgramOp"
+    },{
+      "name": "IDNode",
+      "index": 0,
+      "literal": "xyz"
+    }]
+  },
+  "ClassDecl": {
+    "$right": [{
+      "name": "ClassOp"
+    }, {
+      "name": "ClassDefOp"
+    }]
+  },
+  "ClassDeclSub": {
+    "$right": [{
+      "name": "ClassDefOp"
+    }, {
+      "name": "IDNode",
+      "index": 4,
+      "literal": "Test"
+    }]
+  },
+  "MethodDecl": {
+    "$left": [{
+      "name": "ClassDefOp"
+    }, {
+      "name": "MethodOp"
+    }]
+  },
+  "MethodDeclLeft": {
+    "$left": [{
+      "name": "MethodOp"
+    }, {
+      "name": "IDNode",
+      "index": 9,
+      "literal": "main"
+    }]
+  },
+  "MethodDeclRight": {
+    "$right": [{
+      "name": "MethodOp"
+    }, {
+      "name": "BodyOp"
+    }]
+  },
+  "MethodCallStatement": {
+    "$right": [{
+      "name": "MethodOp"
+    }, {
+      "name": "RoutineCallOp"
+    }]
+  },
+  "MethodCallStatementSub1": {
+    "$left": [{
+      "name": "RoutineCallOp"
+    }, {
+      "name": "IDNode",
+      "index": 14,
+      "literal": "System"
+    }]
+  },
+  "MethodCallStatementSub2": {
+    "$left": [{
+      "name": "RoutineCallOp"
+    }, {
+      "name": "IDNode",
+      "index": 21,
+      "literal": "println"
+    }]
+  },
+  "MethodCallStatementSub3": {
+    "$right": [{
+      "name": "RoutineCallOp"
+    }, {
+      "name": "STRINGNode",
+      "index": 29,
+      "literal": "Hello World !!!"
+    }]
+  }
+}

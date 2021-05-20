@@ -1,0 +1,217 @@
+{
+  "ClassDecl1": {
+    "$left": [{
+      "name": "ClassOp"
+    }, {
+      "name": "ClassDefOp"
+    }]
+  },
+  "ClassDecl2": {
+    "$parentLeft": [{
+      "name": "IDNode",
+      "index": 3,
+      "literal": "Point"
+    }, {
+      "name": "IDNode",
+      "index": 9,
+      "literal": "npoints"
+    }]
+  },
+  "ClassDecl3": {
+    "$parentLeft": [{
+      "name": "IDNode",
+      "index": 31,
+      "literal": "Test"
+    }, {
+      "name": "IDNode",
+      "index": 36,
+      "literal": "main"
+    }]
+  },
+  "FieldDecl1": {
+    "$left": [{
+      "name": "CommaOp"
+    }, {
+      "name": "IDNode",
+      "index": 51,
+      "literal": "p"
+    }]
+  },
+  "FieldDecl2": {
+    "$right": [{
+      "name": "CommaOp"
+    }, {
+      "name": "TypeIdOp"
+    }]
+  },
+  "FieldDecl3": {
+    "$right": [{
+      "name": "CommaOp"
+    }, {
+      "name": "IDNode",
+      "index": 3,
+      "literal": "Point"
+    }]
+  },
+  "FieldDecl4": {
+    "$parentRight": [{
+      "name": "IDNode",
+      "index": 51,
+      "literal": "p"
+    }, {
+      "name": "IDNode",
+      "index": 3,
+      "literal": "Point"
+    }]
+  },
+  "FunctionCallArgument1": {
+    "$left": [{
+      "name": "RoutineCallOp"
+    }, {
+      "name": "IDNode",
+      "index": 53,
+      "literal": "System"
+    }]
+  },
+  "FunctionCallArgument2": {
+    "$left": [{
+      "name": "RoutineCallOp"
+    }, {
+      "name": "IDNode",
+      "index": 60,
+      "literal": "println"
+    }]
+  },
+  "FunctionCallArgument3": {
+    "$parentRight": [{
+      "name": "IDNode",
+      "index": 53,
+      "literal": "System"
+    }, {
+      "name": "IDNode",
+      "index": 60,
+      "literal": "println"
+    }]
+  },
+  "FunctionCallArgument4": {
+    "$right": [{
+      "name": "RoutineCallOp"
+    }, {
+      "name": "STRINGNode",
+      "index": 68,
+      "literal": "npoints="
+    }]
+  },
+  "FunctionCallArgument5": {
+    "$right": [{
+      "name": "RoutineCallOp"
+    }, {
+      "name": "IDNode",
+      "index": 3,
+      "literal": "Point"
+    }]
+  },
+  "FunctionCallArgument6": {
+    "$right": [{
+      "name": "RoutineCallOp"
+    }, {
+      "name": "IDNode",
+      "index": 9,
+      "literal": "npoints"
+    }]
+  },
+  "FunctionCallArgument7": {
+    "$parentRight": [{
+      "name": "IDNode",
+      "index": 3,
+      "literal": "Point"
+    }, {
+      "name": "IDNode",
+      "index": 9,
+      "literal": "npoints"
+    }]
+  },
+  "FunctionCallArgument8": {
+    "$right": [{
+      "name": "RoutineCallOp"
+    }, {
+      "name": "CommaOp"
+    }]
+  },
+  "FunctionCallArgument9": {
+    "$right": [{
+      "name": "RoutineCallOp"
+    }, {
+      "name": "SelectOp"
+    }]
+  },
+  "FunctionCallArgument10": {
+    "$right": [{
+      "name": "RoutineCallOp"
+    }, {
+      "name": "FieldOp"
+    }]
+  },
+  "ArrayInitStatement1": {
+    "$left": [{
+      "name": "CommaOp"
+    }, {
+      "name": "IDNode",
+      "index": 26,
+      "literal": "arr1"
+    }]
+  },
+  "ArrayInitStatement2": {
+    "$right": [{
+      "name": "CommaOp"
+    }, {
+      "name": "ArrayTypeOp"
+    }]
+  },
+  "ArrayInitStatement3": {
+    "$left": [{
+      "name": "ArrayTypeOp"
+    }, {
+      "name": "CommaOp"
+    }]
+  },
+  "ArrayInitStatement4": {
+    "$left": [{
+      "name": "ArrayTypeOp"
+    }, {
+      "name": "NUMNode",
+      "index": 2
+    }]
+  },
+  "ArrayInitStatement5": {
+    "$left": [{
+      "name": "ArrayTypeOp"
+    }, {
+      "name": "NUMNode",
+      "index": 3
+    }]
+  },
+  "ArrayInitStatement6": {
+    "$left": [{
+      "name": "ArrayTypeOp"
+    }, {
+      "name": "NUMNode",
+      "index": 4
+    }]
+  },
+  "ArrayInitStatement7": {
+    "$left": [{
+      "name": "ArrayTypeOp"
+    }, {
+      "name": "NUMNode",
+      "index": 5
+    }]
+  },
+  "ArrayInitStatement9": {
+    "$right": [{
+      "name": "ArrayTypeOp"
+    }, {
+      "name": "TypeIdOp"
+    }]
+  }
+}

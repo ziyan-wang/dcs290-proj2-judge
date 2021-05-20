@@ -1,0 +1,169 @@
+{
+  "Program": {
+    "$right": [{
+      "name": "ProgramOp"
+    },{
+      "name": "IDNode",
+      "index": 0,
+      "literal": "p2"
+    }]
+  },
+  "ClassDecl": {
+    "$parentLeft": [{
+      "name": "IDNode",
+      "index": 0,
+      "literal": "p2"
+    }, {
+      "name": "ClassDefOp"
+    }]
+  },
+  "ClassDeclSub": {
+    "$right": [{
+      "name": "ClassDefOp"
+    }, {
+      "name": "IDNode",
+      "index": 3,
+      "literal": "Test"
+    }]
+  },
+  "DeclsInClass": {
+    "$parentLeft": [{
+      "name": "IDNode",
+      "index": 3,
+      "literal": "Test"
+    }, {
+      "name": "DeclOp"
+    }]
+  },
+  "DeclsInClassSub1": {
+    "$right": [{
+      "name": "DeclOp"
+    }, {
+      "name": "IDNode",
+      "index": 8,
+      "literal": "npoints"
+    }]
+  },
+  "DeclsInClassSub2": {
+    "$parentLeft": [{
+      "name": "IDNode",
+      "index": 3,
+      "literal": "Test"
+    }, {
+      "name": "IDNode",
+      "index": 8,
+      "literal": "npoints"
+    }]
+  },
+  "DeclsInClassSub3": {
+    "$right": [{
+      "name": "DeclOp"
+    }, {
+      "name": "NUMNode",
+      "index": 1
+    }]
+  },
+  "DeclsInClassSub4": {
+    "$parentLeft": [{
+      "name": "IDNode",
+      "index": 3,
+      "literal": "Test"
+    }, {
+      "name": "NUMNode",
+      "index": 1
+    }]
+  },
+  "DeclsInClassSub5": {
+    "$right": [{
+      "name": "DeclOp"
+    }, {
+      "name": "TypeIdOp"
+    }]
+  },
+  "DeclsInClassSub6": {
+    "$parentLeft": [{
+      "name": "IDNode",
+      "index": 3,
+      "literal": "Test"
+    }, {
+      "name": "TypeIdOp"
+    }]
+  },
+  "DeclsInClassSub7": {
+    "$right": [{
+      "name": "DeclOp"
+    }, {
+      "name": "INTEGERTNode"
+    }]
+  },
+  "DeclsInClassSub8": {
+    "$parentLeft": [{
+      "name": "IDNode",
+      "index": 3,
+      "literal": "Test"
+    }, {
+      "name": "INTEGERTNode"
+    }]
+  },
+  "MethodDecl": {
+    "$left": [{
+      "name": "MethodOp"
+    }, {
+      "name": "HeadOp"
+    }]
+  },
+  "MethodDecl1": {
+    "$left": [{
+      "name": "MethodOp"
+    }, {
+      "name": "IDNode",
+      "index": 16,
+      "literal": "main"
+    }]
+  },
+  "MethodDecl2": {
+    "$left": [{
+      "name": "MethodOp"
+    }, {
+      "name": "IDNode",
+      "index": 23,
+      "literal": "m0"
+    }]
+  },
+  "MethodCallStatement": {
+    "$right": [{
+      "name": "MethodOp"
+    }, {
+      "name": "RoutineCallOp"
+    }]
+  },
+  "MethodCallStatementSub1": {
+    "$left": [{
+      "name": "RoutineCallOp"
+    }, {
+      "name": "IDNode",
+      "index": 26,
+      "literal": "System"
+    }]
+  },
+  "MethodCallStatementSub2": {
+    "$left": [{
+      "name": "RoutineCallOp"
+    }, {
+      "name": "IDNode",
+      "index": 33,
+      "literal": "println"
+    }]
+  },
+  "MethodCallStatementSub3": {
+    "$parentRight": [{
+      "name": "IDNode",
+      "index": 26,
+      "literal": "System"
+    }, {
+      "name": "IDNode",
+      "index": 33,
+      "literal": "println"
+    }]
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "Program": {
+    "$right": [{
+      "name": "ProgramOp"
+    },{
+      "name": "IDNode",
+      "index": 0,
+      "literal": "p2"
+    }]
+  },
+  "ClassDecl": {
+    "$right": [{
+      "name": "ClassOp"
+    }, {
+      "name": "ClassDefOp"
+    }]
+  },
+  "ClassDeclSub": {
+    "$right": [{
+      "name": "ClassDefOp"
+    }, {
+      "name": "IDNode",
+      "index": 3,
+      "literal": "Test"
+    }]
+  },
+  "Decls": {
+    "$right": [{
+      "name": "MethodOp"
+    }, {
+      "name": "DeclOp"
+    }]
+  },
+  "DeclsSub1": {
+    "$right": [{
+      "name": "DeclOp"
+    }, {
+      "name": "IDNode",
+      "index": 13,
+      "literal": "x"
+    }]
+  },
+  "DeclsSub2": {
+    "$right": [{
+      "name": "DeclOp"
+    }, {
+      "name": "IDNode",
+      "index": 15,
+      "literal": "i"
+    }]
+  },
+  "DeclsSub3": {
+    "$right": [{
+      "name": "DeclOp"
+    }, {
+      "name": "TypeIdOp"
+    }]
+  },
+  "DeclsSub4": {
+    "$left": [{
+      "name": "TypeIdOp"
+    }, {
+      "name": "INTEGERTNode"
+    }]
+  },
+  "MethodDecl": {
+    "$left": [{
+      "name": "MethodOp"
+    }, {
+      "name": "IDNode",
+      "index": 8,
+      "literal": "main"
+    }]
+  },
+  "Loop": {
+    "$left": [{
+      "name": "LoopOp"
+    },{
+      "name": "LTOp"
+    }]
+  },
+  "LoopSub1": {
+    "$left": [{
+      "name": "LoopOp"
+    },{
+      "name": "NUMNode",
+      "index": 10
+    }]
+  },
+  "LoopSub2": {
+    "$left": [{
+      "name": "LoopOp"
+    },{
+      "name": "IDNode",
+      "index": 15,
+      "literal": "i"
+    }]
+  },
+  "Assign": {
+    "$right": [{
+      "name": "LoopOp"
+    },{
+      "name": "AssignOp"
+    }]
+  },
+  "AssignLeft": {
+    "$left": [{
+      "name": "AssignOp"
+    },{
+      "name": "IDNode",
+      "index": 15,
+      "literal": "i"
+    }]
+  },
+  "AssignRight1": {
+    "$right": [{
+      "name": "AssignOp"
+    }, {
+      "name": "IDNode",
+      "index": 15,
+      "literal": "i"
+    }]
+  },
+  "AssignRight2": {
+    "$right": [{
+      "name": "AssignOp"
+    }, {
+      "name": "NUMNode",
+      "index": 1
+    }]
+  },
+  "MethodCallStatement1": {
+    "$left": [{
+      "name": "RoutineCallOp"
+    }, {
+      "name": "IDNode",
+      "index": 17,
+      "literal": "System"
+    }]
+  },
+  "MethodCallStatement2": {
+    "$left": [{
+      "name": "RoutineCallOp"
+    }, {
+      "name": "IDNode",
+      "index": 24,
+      "literal": "readln"
+    }]
+  },
+  "MethodCallStatement3": {
+    "$right": [{
+      "name": "RoutineCallOp"
+    }, {
+      "name": "IDNode",
+      "index": 13,
+      "literal": "x"
+    }]
+  }
+}

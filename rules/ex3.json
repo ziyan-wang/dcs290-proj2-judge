@@ -1,0 +1,170 @@
+{
+  "MethodDecl": {
+    "$left": [{
+      "name": "MethodOp"
+    }, {
+      "name": "IDNode",
+      "index": 7,
+      "literal": "main"
+    }]
+  },
+  "FieldDecl1": {
+    "$left": [{
+      "name": "CommaOp"
+    }, {
+      "name": "IDNode",
+      "index": 12,
+      "literal": "ia"
+    }]
+  },
+  "FieldDecl2": {
+    "$right": [{
+      "name": "BodyOp"
+    }, {
+      "name": "IDNode",
+      "index": 12,
+      "literal": "ia"
+    }]
+  },
+  "FieldDecl3": {
+    "$parentRight": [{
+      "name": "IDNode",
+      "index": 12,
+      "literal": "ia"
+    }, {
+      "name": "ArrayTypeOp"
+    }]
+  },
+  "FieldDecl4": {
+    "$left": [{
+      "name": "ArrayTypeOp"
+    }, {
+      "name": "BoundOp"
+    }]
+  },
+  "FieldDecl5": {
+    "$left": [{
+      "name": "ArrayTypeOp"
+    }, {
+      "name": "NUMNode",
+      "index": 101
+    }]
+  },
+  "FieldDecl6": {
+    "$parentRight": [{
+      "name": "IDNode",
+      "index": 15,
+      "literal": "i"
+    }, {
+      "name": "INTEGERTNode"
+    }]
+  },
+  "FieldDecl7": {
+    "$parentRight": [{
+      "name": "IDNode",
+      "index": 15,
+      "literal": "i"
+    }, {
+      "name": "NUMNode",
+      "index": 0
+    }]
+  },
+  "FieldDecl8": {
+    "$right": [{
+      "name": "DeclOp"
+    }, {
+      "name": "IDNode",
+      "index": 15,
+      "literal": "i"
+    }]
+  },
+  "WhileStatement1": {
+    "$left": [{
+      "name": "LoopOp"
+    }, {
+      "name": "LTOp"
+    }]
+  },
+  "WhileStatement2": {
+    "$left": [{
+      "name": "LoopOp"
+    }, {
+      "name": "IDNode",
+      "index": 15,
+      "literal": "i"
+    }]
+  },
+  "WhileStatement3": {
+    "$left": [{
+      "name": "LoopOp"
+    }, {
+      "name": "IDNode",
+      "index": 12,
+      "literal": "ia"
+    }]
+  },
+  "WhileStatement4": {
+    "$parentRight": [{
+      "name": "IDNode",
+      "index": 12,
+      "literal": "ia"
+    }, {
+      "name": "IDNode",
+      "index": 21,
+      "literal": "length"
+    }]
+  },
+  "WhileStatement5": {
+    "$parentRight": [{
+      "name": "IDNode",
+      "index": 12,
+      "literal": "ia"
+    }, {
+      "name": "FieldOp"
+    }]
+  },
+  "AssignmentStatement1": {
+    "$left": [{
+      "name": "AssignOp"
+    }, {
+      "name": "IDNode",
+      "index": 15,
+      "literal": "i"
+    }]
+  },
+  "AssignmentStatement2": {
+    "$right": [{
+      "name": "AssignOp"
+    }, {
+      "name": "IDNode",
+      "index": 15,
+      "literal": "i"
+    }]
+  },
+  "AssignmentStatement3": {
+    "$right": [{
+      "name": "AssignOp"
+    }, {
+      "name": "AddOp"
+    }]
+  },
+  "AssignmentStatement4": {
+    "$parentLeft": [{
+      "name": "NUMNode",
+      "index": 1
+    }, {
+      "name": "IDNode",
+      "index": 15,
+      "literal": "i"
+    }]
+  },
+  "IndexStatement": {
+    "$left": [{
+      "name": "IndexOp"
+    }, {
+      "name": "IDNode",
+      "index": 15,
+      "literal": "i"
+    }]
+  }
+}
